@@ -43,6 +43,10 @@ public class Client {
         cb = factory.createCheckBox();
         pb = factory.createProgressBar();
         tf = factory.createTextField();
+        b.display();
+        cb.display();
+        pb.display();
+        tf.display();
     }
 
 }
